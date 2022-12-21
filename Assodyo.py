@@ -96,7 +96,7 @@ while True:
        # all other cases
         else:
             bank += user_bet
-            if user_bank>=0:
+            if user_bank<=0:
                 user_bank = 0
             else:
                 user_bank -= user_bet
